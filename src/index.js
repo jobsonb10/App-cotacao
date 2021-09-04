@@ -1,8 +1,12 @@
 const express = require("express");
 const axios = require("axios");
+const routes = require("./routes");
+
 
 const app = express();
+app.use(routes);
 app.use(express.json());
+
 const port = 3000;
 
 const getLatestPrice = async (symbol) => {

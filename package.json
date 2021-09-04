@@ -1,20 +1,32 @@
 {
   "name": "acoes",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index",
-    "dev": "nodemon index"
+    "dev": "nodemon src/index"
   },
-  "author": "",
+  "author": "FIRST_NAME LAST_NAME <jobsonbrito10@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^2.0.12"
+    "nodemon": "^2.0.12",
+    "sequelize-cli": "^6.2.0"
   },
   "dependencies": {
     "axios": "^0.21.1",
     "express": "^4.17.1",
-    "pg": "^8.7.1"
-  }
+    "mysql2": "^2.3.0",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.6.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jobsonb10/App-cotacao.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jobsonb10/App-cotacao/issues"
+  },
+  "homepage": "https://github.com/jobsonb10/App-cotacao#readme",
+  "description": ""
 }
